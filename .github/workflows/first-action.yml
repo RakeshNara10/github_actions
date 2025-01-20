@@ -9,3 +9,8 @@ jobs:
         run: echo "Hello! World"
       - name: Print bye
         run: echo "Good Bye"
+      - name: print multi lines
+        run: |
+          echo "hi"
+          echo "bye"
+
